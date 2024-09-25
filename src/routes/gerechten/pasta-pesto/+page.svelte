@@ -40,7 +40,10 @@
 
 <section>
 	<h1>Pasta pesto</h1>
-	<p>Pasta pesto is lekkerrrrrrrrrr</p>
+	<p>Pasta pesto is een eenvoudig en smaakvol gerecht uit Italië. 
+        Het biedt een heerlijke combinatie van verse smaken en is perfect voor een snelle maaltijd. 
+        Serveer het met al dente pasta en voeg eventueel cherrytomaatjes of groenten toe. 
+        Geniet van deze klassieke Italiaanse traktatie!</p>
 
 	<main>
 		<article class="ingredienten">
@@ -83,7 +86,7 @@
 
 	section {
 		background-color: rgb(246, 238, 228);
-		height: 100vh;
+		height: auto;
 	}
 
 	h1 {
@@ -108,11 +111,15 @@
 		margin-top: 1em;
 	}
 
-	main {
-		display: flex;
-		justify-content: center;
-		gap: 20em;
-	}
+    .ingredienten {
+        margin-top: 2em;
+        margin-left: 1em;
+    }
+
+    .bereiding {
+        margin-top: 4em;
+        margin-left: 1em;
+    }
 
 	ul {
 		list-style-type: none;
@@ -143,7 +150,7 @@
 	.button-container {
 		display: flex;
 		align-items: center;
-		justify-content: center;
+		/* justify-content: center; */
 		gap: 10px;
 	}
 
@@ -181,8 +188,48 @@
 		appearance: none;
 	}
 
-	/* DESKTOP */
+
+    /* TABLET MINI */
+	@media (min-width: 30em) {
+        main {
+			margin-top: 5em;
+			display: flex;
+			justify-content: center;
+			gap: 6em;
+			margin-left: -5em;
+		}
+    }
+
+    /* TABLET BIG */
+	@media (min-width: 40em) {
+        main {
+			margin-top: 5em;
+			display: flex;
+			justify-content: center;
+			gap: 10em;
+			margin-left: -10em;
+		}
+    }
+
+      /* DESKTOP SMALL */
+	@media (min-width: 50em) {
+        main {
+			margin-top: 5em;
+			display: flex;
+			justify-content: center;
+			gap: 15em;
+			margin-left: -10em;
+		}
+    }
+
+	/* DESKTOP BIG */
 	@media (min-width: 68em) {
+
+        section {
+		background-color: rgb(246, 238, 228);
+		height: 100vh;
+	    }
+
 		h1 {
 			font-family: 'Cinzel', serif;
 			display: flex;
@@ -207,7 +254,7 @@
 			display: flex;
 			justify-content: center;
 			gap: 20em;
-			margin-left: -20em;
+			margin-left: -30em;
 		}
 	}
 </style>
