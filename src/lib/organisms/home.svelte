@@ -72,6 +72,7 @@
 
     h1 {
         font-family: 'Cinzel', serif;
+        color: rgb(63, 123, 80);
         display: flex;
         justify-content: center;
         text-align: center;
@@ -82,6 +83,7 @@
 
     p {
         font-family: "Bree serif", helvetica;
+        color: rgb(63, 123, 80);
         display: flex;
         justify-content: center;
         font-size: 1.3em;
@@ -91,11 +93,6 @@
         margin: 0 auto;
         margin-top: 1em;
     }
-
-    /* TABLET */
- @media (min-width: 35em) {
-
- }
 
     /* DESKTOP */
  @media (min-width: 68em) {
