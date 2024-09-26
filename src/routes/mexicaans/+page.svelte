@@ -5,21 +5,17 @@
 <Header />
 
 <section>
-	<h1>Italiaans</h1>
-	<p>Italiaans eten is een viering van liefde en verse ingrediënten.
-         Van knapperige pizza’s tot romige risotto en heerlijke gelato, 
-         elke hap brengt je naar de zonnige heuvels van Italië.
-          Geniet van de rijke smaken en de gezelligheid aan tafel!</p>
+	<h1>Mexicaans</h1>
+	<p>Mexicaans eten draait om samenkomen en traditie. 
+        Het brengt mensen bij elkaar met rijke smaken, 
+        kleurrijke ingrediënten en een diepe culturele geschiedenis. 
+        Eten is er niet alleen voor de smaak, 
+        maar vooral voor verbinding en het vieren van het leven.</p>
 
 	<main class="container">
 		<ul>
-			<li>
-				<a href="/gerechten/pasta-pesto">Pasta pesto<img src="/assets/pesto.jpg" alt="Italie"/></a>
-			</li>
-			<li><a href="/">Spaghetti carbonara<img src="/assets/carbonara.jpg" alt="Italie"/></a></li>
-			<li><a href="/">Spaghetti bolognese<img src="/assets/bolognese.jpg" alt="Italie"/></a></li>
-			<li><a href="/">Plaatpizza<img src="/assets/plaatpizza.jpg" alt="Italie"/></a></li>
-			<li><a href="/">Teramisu<img src="/assets/teramisu.jpg" alt="Italie"/></a></li>
+			<li><a href="/gerechten/pasta-pesto">Burritos<img src="/assets/burritos.webp" alt="Italie"/></a></li>
+			<li><a href="/">Wraps<img src="/assets/wraps.jpg" alt="Italie"/></a></li>
 		</ul>
 	</main>
 </section>
@@ -71,7 +67,6 @@
         border-radius: 4em 4em 0em 0em;
         height: 8em;
 		width: 8em;
-        object-fit: cover;
 	}
 
     h1 {
@@ -147,6 +142,7 @@
         border-radius: 1em 0em 1em 0em;
         height: 8em;
 		width: 8em;
+        object-fit: cover;
 	}
 
     h1 {

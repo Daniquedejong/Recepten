@@ -10,13 +10,12 @@
 	</p>
 	<main class="container">
 		<ul>
-			<li>
-				<a href="/italiaans">Italiaans<img src="/assets/italie.jpg" alt="Italie"/></a>
-			</li>
-			<li><a href="/">Mexicaans<img src="/assets/italie.jpg" alt="Italie"/></a></li>
-			<li><a href="/">Nederlands<img src="/assets/italie.jpg" alt="Italie"/></a></li>
-			<li><a href="/">Frans<img src="/assets/italie.jpg" alt="Italie"/></a></li>
-			<li><a href="/">Spaans<img src="/assets/italie.jpg" alt="Italie"/></a></li>
+            <li><a href="/nederlands">Nederlands<img src="/assets/italie.jpg" alt="Italie"/></a></li>
+			<li><a href="/italiaans">Italiaans<img src="/assets/italie.jpg" alt="Italie"/></a></li>
+			<li><a href="/mexicaans">Mexicaans<img src="/assets/italie.jpg" alt="Italie"/></a></li>
+			<li><a href="/frans">Frans<img src="/assets/italie.jpg" alt="Italie"/></a></li>
+			<li><a href="/spaans">Spaans<img src="/assets/italie.jpg" alt="Italie"/></a></li>
+            <li><a href="/aziatisch">Aziatisch<img src="/assets/italie.jpg" alt="Italie"/></a></li>
 		</ul>
 	</main>
 </section>

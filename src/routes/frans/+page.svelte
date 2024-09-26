@@ -5,23 +5,21 @@
 <Header />
 
 <section>
-	<h1>Italiaans</h1>
-	<p>Italiaans eten is een viering van liefde en verse ingrediënten.
-         Van knapperige pizza’s tot romige risotto en heerlijke gelato, 
-         elke hap brengt je naar de zonnige heuvels van Italië.
-          Geniet van de rijke smaken en de gezelligheid aan tafel!</p>
+	<h1>Frans</h1>
+	<p>Frans eten is een symfonie van smaken, finesse en traditie. 
+        Het staat bekend om zijn uitstekende technieken en hoogwaardige ingrediënten, 
+        van verse baguettes en romige kaas tot verfijnde gerechten zoals coq au vin en ratatouille. 
+        Eten in Frankrijk is vaak een kunstvorm, waarbij maaltijden worden genoten als 
+        sociale gebeurtenissen, compleet met goede wijnen en uitgebreid tafelen. 
+        De Franse keuken weerspiegelt een rijke culinaire geschiedenis en een liefde voor het goede leven, 
+        waar elke hap een moment van genot is.</p>
 
-	<main class="container">
-		<ul>
-			<li>
-				<a href="/gerechten/pasta-pesto">Pasta pesto<img src="/assets/pesto.jpg" alt="Italie"/></a>
-			</li>
-			<li><a href="/">Spaghetti carbonara<img src="/assets/carbonara.jpg" alt="Italie"/></a></li>
-			<li><a href="/">Spaghetti bolognese<img src="/assets/bolognese.jpg" alt="Italie"/></a></li>
-			<li><a href="/">Plaatpizza<img src="/assets/plaatpizza.jpg" alt="Italie"/></a></li>
-			<li><a href="/">Teramisu<img src="/assets/teramisu.jpg" alt="Italie"/></a></li>
-		</ul>
-	</main>
+          <main class="container">
+            <ul>
+                <li><a href="/gerechten/pasta-pesto">Boeuf Bourguignon<img src="/assets/boeuf.jpg" alt="Italie"/></a></li>
+                <li><a href="/">Draadjesvlees<img src="/assets/draadjesvlees.png" alt="Italie"/></a></li>
+            </ul>
+        </main>
 </section>
 
 <style>
@@ -71,7 +69,6 @@
         border-radius: 4em 4em 0em 0em;
         height: 8em;
 		width: 8em;
-        object-fit: cover;
 	}
 
     h1 {
@@ -147,6 +144,7 @@
         border-radius: 1em 0em 1em 0em;
         height: 8em;
 		width: 8em;
+        object-fit: cover;
 	}
 
     h1 {

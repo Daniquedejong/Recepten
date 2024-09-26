@@ -5,21 +5,20 @@
 <Header />
 
 <section>
-	<h1>Italiaans</h1>
-	<p>Italiaans eten is een viering van liefde en verse ingrediënten.
-         Van knapperige pizza’s tot romige risotto en heerlijke gelato, 
-         elke hap brengt je naar de zonnige heuvels van Italië.
-          Geniet van de rijke smaken en de gezelligheid aan tafel!</p>
+	<h1>Spaans</h1>
+	<p>Spaans eten is een feest van smaken en levendige tradities. 
+        Van tapas tot paella, het draait om het delen van kleine 
+        gerechten en genieten met vrienden en familie. 
+        De Spaanse keuken maakt volop gebruik van verse ingrediënten zoals olijfolie, 
+        tomaten en zeevruchten, met regionale specialiteiten die het land rijk maken. 
+        Eten in Spanje is niet alleen een maaltijd, maar een sociaal ritueel, 
+        vaak begeleid door goede wijn en eindeloos gezellige gesprekken.</p>
 
 	<main class="container">
 		<ul>
 			<li>
-				<a href="/gerechten/pasta-pesto">Pasta pesto<img src="/assets/pesto.jpg" alt="Italie"/></a>
+				<a href="/gerechten/pasta-pesto">Tortillas<img src="/assets/pasta-pesto.jpg" alt="Italie"/></a>
 			</li>
-			<li><a href="/">Spaghetti carbonara<img src="/assets/carbonara.jpg" alt="Italie"/></a></li>
-			<li><a href="/">Spaghetti bolognese<img src="/assets/bolognese.jpg" alt="Italie"/></a></li>
-			<li><a href="/">Plaatpizza<img src="/assets/plaatpizza.jpg" alt="Italie"/></a></li>
-			<li><a href="/">Teramisu<img src="/assets/teramisu.jpg" alt="Italie"/></a></li>
 		</ul>
 	</main>
 </section>
@@ -71,7 +70,6 @@
         border-radius: 4em 4em 0em 0em;
         height: 8em;
 		width: 8em;
-        object-fit: cover;
 	}
 
     h1 {
@@ -147,6 +145,7 @@
         border-radius: 1em 0em 1em 0em;
         height: 8em;
 		width: 8em;
+        object-fit: cover;
 	}
 
     h1 {

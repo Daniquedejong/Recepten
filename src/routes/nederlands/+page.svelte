@@ -5,21 +5,22 @@
 <Header />
 
 <section>
-	<h1>Italiaans</h1>
-	<p>Italiaans eten is een viering van liefde en verse ingrediënten.
-         Van knapperige pizza’s tot romige risotto en heerlijke gelato, 
-         elke hap brengt je naar de zonnige heuvels van Italië.
-          Geniet van de rijke smaken en de gezelligheid aan tafel!</p>
+	<h1>Nederlands</h1>
+	<p>Nederlands eten is eenvoudig, maar vol hartige smaken en tradities.
+         Denk aan stamppot, erwtensoep en versgebakken brood, 
+         vaak geserveerd met kaas of worst. Eten in Nederland weerspiegelt de nuchtere cultuur:
+          voedzaam, lekker en gemaakt om van te genieten met familie en vrienden. 
+          Of het nu een feestelijke haringhapje is of een warme maaltijd op een koude dag, 
+          de Nederlandse keuken draait om gezelligheid en eenvoud.</p>
 
 	<main class="container">
 		<ul>
-			<li>
-				<a href="/gerechten/pasta-pesto">Pasta pesto<img src="/assets/pesto.jpg" alt="Italie"/></a>
-			</li>
-			<li><a href="/">Spaghetti carbonara<img src="/assets/carbonara.jpg" alt="Italie"/></a></li>
-			<li><a href="/">Spaghetti bolognese<img src="/assets/bolognese.jpg" alt="Italie"/></a></li>
-			<li><a href="/">Plaatpizza<img src="/assets/plaatpizza.jpg" alt="Italie"/></a></li>
-			<li><a href="/">Teramisu<img src="/assets/teramisu.jpg" alt="Italie"/></a></li>
+			<li><a href="/gerechten/pasta-pesto">Boerenkool met worst<img src="/assets/boerenkool.webp" alt="Boerenkool"/></a></li>
+			<li><a href="/">Broccoli met hete kip<img src="/assets/broccoli.jpg" alt="Italie"/></a></li>
+			<li><a href="/">Andijvie stamppot<img src="/assets/stampot.jpg" alt="Italie"/></a></li>
+			<li><a href="/">Bloemkool<img src="/assets/bloemkool.webp" alt="Italie"/></a></li>
+			<li><a href="/">Shuarma bonenschotel<img src="/assets/shuarma.jpeg" alt="Italie"/></a></li>
+            <li><a href="/">Tomatensoep<img src="/assets/tomatensoep.jpg" alt="Italie"/></a></li>
 		</ul>
 	</main>
 </section>
@@ -140,7 +141,7 @@
 		align-items: center;
 	}
 
-    a img {
+	a img {
 		order: -1;
 		display: block;
 		width: 50%;

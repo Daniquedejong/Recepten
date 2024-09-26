@@ -3,12 +3,18 @@
 
 // export async function load() {
 // 	let query = gql`
-// 		query MyQuery {
-//     italies(where: {id: "cm1jmm36d2eb507mmihml5npq"}) {
-//       recipeTitle
-//       recipeIntro
-//     }
-//   }
+// 		query Pages {
+// 			page(where: { id: "clve9wa0l0sit07lax4rfve8s" }) {
+// 				title
+// 				artImage {
+// 					url
+// 				}
+// 				artText {
+// 					text
+// 				}
+// 				artTitle
+// 			}
+// 		}
 // 	`;
 
 // 	const data = await hygraph.request(query);
