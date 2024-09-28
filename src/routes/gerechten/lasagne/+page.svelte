@@ -1,18 +1,57 @@
 <script>
+	import { onMount } from 'svelte';
 	import Header from '$lib/organisms/header.svelte';
+
+	onMount(() => {
+		const personenInput = document.getElementById('personen');
+		const minusButton = document.getElementById('minus');
+		const plusButton = document.getElementById('plus');
+
+		function updateIngredienten() {
+			const aantalPersonen = personenInput.value;
+			const ingredientenLijst = document.querySelectorAll('#ingredienten-lijst li');
+
+			ingredientenLijst.forEach(function (item) {
+				const basisHoeveelheid = item.getAttribute('data-basishoeveelheid');
+				const nieuweHoeveelheid = (basisHoeveelheid * aantalPersonen) / 2; // Aangepast voor 2 personen
+				item.querySelector('.hoeveelheid').textContent = nieuweHoeveelheid.toFixed(0);
+			});
+		}
+
+		personenInput.addEventListener('input', updateIngredienten);
+
+		minusButton.addEventListener('click', () => {
+			let currentValue = parseInt(personenInput.value);
+			if (currentValue > 1) {
+				personenInput.value = currentValue - 1;
+				updateIngredienten();
+			}
+		});
+
+		plusButton.addEventListener('click', () => {
+			let currentValue = parseInt(personenInput.value);
+			personenInput.value = currentValue + 1;
+			updateIngredienten();
+		});
+	});
 </script>
 
 <Header />
 
 <section>
-	<h1>Chinese tomatensoep</h1>
-	<p>Chinese tomatensoep combineert de zoete frisheid van tomaten met een vleugje oosterse kruiden. 
+	<h1>Lasagne</h1>
+	<!-- <p>Chinese tomatensoep combineert de zoete frisheid van tomaten met een vleugje oosterse kruiden. 
         Het is een licht, maar smaakvol gerecht dat vaak wordt geserveerd als voorgerecht in Chinese 
-        restaurants. Simpel, hartverwarmend en vol umami!</p>
+        restaurants. Simpel, hartverwarmend en vol umami!</p> -->
 
 	<main>
 		<article class="ingredienten">
-			<label for="personen">Aantal personen: 10</label>
+			<label for="personen">Aantal personen:</label>
+			<div class="button-container">
+				<button id="minus" class="button">-</button>
+				<input type="number" id="personen" value="2" min="1" />
+				<button id="plus" class="button">+</button>
+			</div>
 			<h2>Ingrediënten</h2>
 			<ul id="ingredienten-lijst">
 				<li data-basishoeveelheid="2">Honig chinese tomatensoep: <span class="hoeveelheid">2</span> pakjes</li>
@@ -128,6 +167,48 @@
 	label {
 		font-family: 'Bree serif', helvetica;
 	}
+
+	.button-container {
+		display: flex;
+		align-items: center;
+		/* justify-content: center; */
+		gap: 10px;
+	}
+
+	.button {
+		background-color: rgb(63, 123, 80);
+		color: white;
+		border: none;
+		border-radius: 5px;
+		padding: 1px 8px;
+		font-size: 1.1em;
+		cursor: pointer;
+		transition: background-color 0.3s ease;
+	}
+
+	.button:hover {
+		background-color: rgb(45, 90, 58);
+	}
+
+	input[type='number'] {
+		-moz-appearance: textfield; /* Verberg pijltjes in Firefox */
+	}
+
+	input[type='number']::-webkit-inner-spin-button,
+	input[type='number']::-webkit-outer-spin-button {
+		-webkit-appearance: none; /* Verberg pijltjes in Chrome/Safari */
+		margin: 0; 
+	}
+
+	input[type='number'] {
+		width: 50px;
+		text-align: center;
+		font-size: 1em;
+		border: 1px solid rgb(63, 123, 80);
+		border-radius: 5px;
+		appearance: none;
+	}
+
 
     /* TABLET MINI */
 	@media (min-width: 30em) {
