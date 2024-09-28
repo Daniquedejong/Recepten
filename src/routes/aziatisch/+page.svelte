@@ -20,6 +20,10 @@
                 <li><a href="/">Pilav<img src="/assets/pilav.webp" alt="Italie"/></a></li>
                 <li><a href="/">Rendang<img src="/assets/rendang.jpg" alt="Italie"/></a></li>
                 <li><a href="/">Nasi<img src="/assets/nasi.jpg" alt="Italie"/></a></li>
+                <li><a href="/">Bao buns<img src="/assets/bao.jpg" alt="Italie"/></a></li>
+                <li><a href="/">Broodje shuarma<img src="/assets/shuarma.jpg" alt="Italie"/></a></li>
+                <li><a href="/">Curry noedels<img src="/assets/noodles.jpg" alt="Italie"/></a></li>
+                <li><a href="/">Poke bowl<img src="/assets/poke-bowl.jpg" alt="Italie"/></a></li>
             </ul>
         </main>
 </section>

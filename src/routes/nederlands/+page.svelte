@@ -20,7 +20,9 @@
 			<li><a href="/">Andijvie stamppot<img src="/assets/stampot.jpg" alt="Italie"/></a></li>
 			<li><a href="/">Bloemkool<img src="/assets/bloemkool.webp" alt="Italie"/></a></li>
 			<li><a href="/">Shuarma bonenschotel<img src="/assets/shuarma.jpeg" alt="Italie"/></a></li>
-            <li><a href="/">Tomatensoep<img src="/assets/tomatensoep.jpg" alt="Italie"/></a></li>
+            <li><a href="/gerechten/chinese-tomatensoep">Chinese tomatensoep<img src="/assets/tomatensoep.jpg" alt="Italie"/></a></li>
+            <li><a href="/">Pannenkoeken<img src="/assets/pannenkoeken.jpg" alt="Italie"/></a></li>
+            <li><a href="/">Poffertjes<img src="/assets/poffertjes.jpg" alt="Italie"/></a></li>
 		</ul>
 	</main>
 </section>

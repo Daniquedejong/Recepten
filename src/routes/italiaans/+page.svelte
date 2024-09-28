@@ -13,11 +13,10 @@
 
 	<main class="container">
 		<ul>
-			<li>
-				<a href="/gerechten/pasta-pesto">Pasta pesto<img src="/assets/pesto.jpg" alt="Italie"/></a>
-			</li>
+			<li><a href="/gerechten/pasta-pesto">Pasta pesto<img src="/assets/pesto.jpg" alt="Italie"/></a></li>
 			<li><a href="/">Spaghetti carbonara<img src="/assets/carbonara.jpg" alt="Italie"/></a></li>
 			<li><a href="/">Spaghetti bolognese<img src="/assets/bolognese.jpg" alt="Italie"/></a></li>
+            <li><a href="/">Lasagna<img src="/assets/bolognese.jpg" alt="Italie"/></a></li>
 			<li><a href="/">Plaatpizza<img src="/assets/plaatpizza.jpg" alt="Italie"/></a></li>
 			<li><a href="/">Teramisu<img src="/assets/teramisu.jpg" alt="Italie"/></a></li>
 		</ul>

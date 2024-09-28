@@ -39,26 +39,28 @@
 <Header />
 
 <section>
-	<h1>Pasta pesto</h1>
-	<p>Pasta pesto is een eenvoudig en smaakvol gerecht uit Italië. 
-        Het biedt een heerlijke combinatie van verse smaken en is perfect voor een snelle maaltijd. 
-        Serveer het met al dente pasta en voeg eventueel cherrytomaatjes of groenten toe. 
-        Geniet van deze klassieke Italiaanse traktatie!</p>
+	<h1>Chinese tomatensoep</h1>
+	<p>Chinese tomatensoep combineert de zoete frisheid van tomaten met een vleugje oosterse kruiden. 
+        Het is een licht, maar smaakvol gerecht dat vaak wordt geserveerd als voorgerecht in Chinese 
+        restaurants. Simpel, hartverwarmend en vol umami!</p>
 
 	<main>
 		<article class="ingredienten">
-			<label for="personen">Aantal personen:</label>
-			<div class="button-container">
+			<label for="personen">Aantal personen: 10</label>
+			<!-- <div class="button-container">
 				<button id="minus" class="button">-</button>
 				<input type="number" id="personen" value="2" min="1" />
 				<button id="plus" class="button">+</button>
-			</div>
+			</div> -->
 
 			<h2>Ingrediënten</h2>
 			<ul id="ingredienten-lijst">
-				<li data-basishoeveelheid="100">Pasta: <span class="hoeveelheid">100</span> gram</li>
-				<li data-basishoeveelheid="50">Tomatensaus: <span class="hoeveelheid">50</span> gram</li>
-				<li data-basishoeveelheid="20">Kaas: <span class="hoeveelheid">20</span> gram</li>
+				<li data-basishoeveelheid="2">Honig chinese tomatensoep: <span class="hoeveelheid">2</span> pakjes</li>
+				<li data-basishoeveelheid="500">Pakje gezeefde tomaten: <span class="hoeveelheid">500</span> gram</li>
+				<li data-basishoeveelheid="20">Runder soepballetjes: <span class="hoeveelheid">250</span> gram</li>
+                <li data-basishoeveelheid="125">Honig krul vermicelli: <span class="hoeveelheid">125</span> gram</li>
+                <li data-basishoeveelheid="20">Honig kruidenbuiltje vlees: <span class="hoeveelheid">1</span> zakje</li>
+                <li data-basishoeveelheid="20">Maggi bouillon blokje rundvlees: <span class="hoeveelheid">1</span> blokje</li>
 			</ul>
 		</article>
 
@@ -66,13 +68,17 @@
 			<h2>Bereiding</h2>
 			<h3>
 				<b>Stap 1</b><br />
-				Bak de kip in een pan.<br />
+				Doe 3 liter water in een pan en zet op hoog vuur.<br />
 				<b>Stap 2</b><br />
-				Bak de kip in een pan.<br />
+				Voeg de twee pakjes chinese tomatensoep, de gezeefde tomaten,
+                 het kruidenbuiltje en het bouiilon blokje toe.<br />
 				<b>Stap 3</b><br />
-				Bak de kip in een pan.<br />
+				Giet er een klein beetje olijfolie in, zodat het niet aanbrandt. 
+                En roer af en toe, anders gaat het klonteren.<br />
 				<b>Stap 4</b><br />
-				Bak de kip in een pan.<br />
+				Voeg de krul vermicelli toe en wacht tot het kookt.<br />
+                <b>Stap 5</b><br />
+				Voeg de soepballetjes toe en laat het ongeveer 10 minuten koken op een middelstandje.<br /><br />
 			</h3>
 		</article>
 	</main>
@@ -92,6 +98,7 @@
 
     main {
         font-family: 'Bree serif', helvetica;
+        padding: 1em;
     }
 
 	h1 {
@@ -201,7 +208,7 @@
 			display: flex;
 			justify-content: center;
 			gap: 6em;
-			margin-left: -5em;
+			margin-left: 1em;
 		}
     }
 
@@ -212,7 +219,7 @@
 			display: flex;
 			justify-content: center;
 			gap: 10em;
-			margin-left: -10em;
+			margin-left: 1em;
 		}
     }
 
@@ -223,7 +230,7 @@
 			display: flex;
 			justify-content: center;
 			gap: 15em;
-			margin-left: -10em;
+			margin-left: 1em;
 		}
     }
 
@@ -232,7 +239,7 @@
 
         section {
 		background-color: rgb(246, 238, 228);
-		height: 100vh;
+		/* height: 100vh; */
 	    }
 
 		h1 {
@@ -259,7 +266,11 @@
 			display: flex;
 			justify-content: center;
 			gap: 20em;
-			margin-left: -30em;
+			margin-left: 5em;
 		}
+
+        .bereiding {
+            max-width: 25em;
+        }
 	}
 </style>

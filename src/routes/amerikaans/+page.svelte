@@ -5,20 +5,17 @@
 <Header />
 
 <section>
-	<h1>Spaans</h1>
-	<p>Spaans eten is een feest van smaken en levendige tradities. 
-        Van tapas tot paella, het draait om het delen van kleine 
-        gerechten en genieten met vrienden en familie. 
-        De Spaanse keuken maakt volop gebruik van verse ingrediënten zoals olijfolie, 
-        tomaten en zeevruchten, met regionale specialiteiten die het land rijk maken. 
-        Eten in Spanje is niet alleen een maaltijd, maar een sociaal ritueel, 
-        vaak begeleid door goede wijn en eindeloos gezellige gesprekken.</p>
+	<h1>Amerikaans</h1>
+	<p>Amerikaans eten staat bekend om zijn diversiteit en volle smaken. 
+        Van sappige burgers en comfort food tot authentieke BBQ en zoete lekkernijen, 
+        de Amerikaanse keuken brengt klassiekers uit elke regio samen. 
+        Ontdek gerechten die de rijke culinaire cultuur van de VS weerspiegelen en 
+        laten genieten van eenvoud tot verfijning.</p>
 
 	<main class="container">
 		<ul>
-			<li>
-				<a href="/gerechten/pasta-pesto">Tortillas<img src="/assets/pasta-pesto.jpg" alt="Italie"/></a>
-			</li>
+			<li><a href="/gerechten/pasta-pesto">Burger<img src="/assets/burger.jpg" alt="Italie"/></a></li>
+            <li><a href="/">Wafels<img src="/assets/wafels.webp" alt="Italie"/></a></li>
 		</ul>
 	</main>
 </section>
